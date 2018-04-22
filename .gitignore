@@ -19,3 +19,4 @@ node_modules/
 $RECYCLE.BIN/
 .DS_Store
 Thumbs.db
+config.json
