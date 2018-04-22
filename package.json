@@ -1,0 +1,22 @@
+{
+  "name": "alarmmonitor",
+  "version": "1.0.0",
+  "description": "Show and update a website on a hardware display controlled by a Raspberry Pi",
+  "main": "index.js",
+  "scripts": {
+    "start": "websocketd --port=8080 --staticdir=. --passenv DISPLAY /bin/bash -c 'read c;$c'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joernb/alarmmonitor.git"
+  },
+  "author": "Jörn Buchwald",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joernb/alarmmonitor/issues"
+  },
+  "homepage": "https://github.com/joernb/alarmmonitor#readme",
+  "dependencies": {
+    "angular": "^1.4.14"
+  }
+}

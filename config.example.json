@@ -1,0 +1,7 @@
+{
+  "scriptShellCommand": "/usr/bin/env ./detect-button-presses.py",
+  "iframeUrl": "http://example.com",
+  "activateStatusDisplayShellCommand": "/usr/bin/env ./display-on.sh",
+  "standbyDelayInSeconds": 3600,
+  "activateStandbyShellCommand": "/usr/bin/env ./display-off.sh"
+}

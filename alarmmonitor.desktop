@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Alarmmonitor
+Exec=bash -c "cd /home/pi/Alarmmonitor && npm start"
+Terminal=true
+Type=Application
+Icon=konsole
+X-KeepTerminal=false
